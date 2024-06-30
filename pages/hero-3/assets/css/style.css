@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/strawberry-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 300;
+  }
+
+  .left-container {
+    width: 50%;
+    padding: 20px;
+    background-image: linear-gradient(to bottom left, rgb(68, 0, 7),  rgba(255, 43, 43, 0.633), rgb(255, 240, 209),  rgb(255, 43, 43),  rgb(0, 0, 0));
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    font-family: "poppins";
+    color: #000000;
+  }
+
+  .right-column {
+    width: 50%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+  }
+
+  h2 {
+    color: #363636;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #1e1e1e;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff3c5;
+    margin-bottom: 25px;
+  }
+
+  .btn {
+    display: inline-block;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: #d20031;
+    color: #ffeed1;
+    border-radius: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 9px;
+  }
+
+  .btn:hover {
+    background-color: #791a32;
+  }
+
+  .image {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #a40026;
+    margin-bottom: 10px;
+  }
+
+  .title span {
+    color: #301001;
+  }
+
+  .description {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #5e0011;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffeed1;
+    display: block;
+    transition: 0.3s;
+
+  }
+
+  .sidebar a:hover {
+    color: #ffeed1;
+    font-weight: 700;
+  }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+  }
+
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffeed1;
+    color: rgb(142, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5%;
+    border-color: #620f0f;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .openbtn:hover {
+    background-color: #b70028;
+    color: #ffeed1;
+  }
+
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }

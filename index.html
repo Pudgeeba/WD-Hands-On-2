@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands on</title>
+
+     <!-- Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+       rel="stylesheet"/>
+
+    <!-- CDNJS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+<body>
+  <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="./pages/hero-1/index.html">Hero 1</a>
+  <a href="./pages/hero-2/index.html">Hero 2</a>
+  <a href="./pages/hero-3/index.html">Hero 3</a>
+  <a href="./pages/hero-4/index.html">Hero 4</a>
+  <a href="./pages/hero-5/index.html">Hero 5</a>
+  <a href="./pages/card-gallery/index.html">Card Gallery</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Kln Kreates</button></div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<center>
+ <div class="container">
+    <h1 class="title"> Hero & Card</h1>
+    <p><center><h3 class="subtitle">Hands On 2</h3></center></p>
+
+    <p class="description">Welcome to the Landing Page! This Website's Design and Theme is inspired by my favorite animals and aesthetic. This is to showcase creativity through different HTML and CSS skills that has been applied to 5 different hero designs, 5 different static card designs, and 5 different animated card designs.</p>
+  </div>
+</center>
+
+</body>
+</html>
