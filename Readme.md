@@ -76,6 +76,9 @@ Throughout this whole project, I was able to come up and play with different des
   - Static Card Designs
   - Animated card Designs
 
+•  Deployment Link:
+  - https://pudgeeba.github.io/WD-Hands-On-2/
+
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
