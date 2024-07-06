@@ -95,94 +95,37 @@ Throughout this whole project, I was able to come up and play with different des
 6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
 7. File Structure to follow below.
 
-WD-Hands-On-2
+```
+WD-ProjectName
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ capybara-bicycle-nature-bg
-|   |   └─ kln-kreates-logo.png
+|   |   └─ fileWith.jpeg/.jpg/.webp/.png
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ card-gallery
-|  |   └─ assets
-|  |   |  └─ css
-|  |   |  |  └─ style.css
-|  |   |  └─ img
-|  |   |  |  └─ kln-kreates-jewelry.png
-|  |   |  |  └─ magical-sword-bg.gif
-|  |   |  |  └─ magical-sword.png
-|  |   |  |  └─ me-with-cholo.png
-|  |   |  |  └─ pantone-yellow.jpg
-|  |   |  └─ js
-|  |   |     └─ script.js
-|  |   |
-|  |   └─ index.html
-|  |
-|  └─ hero-1
-|  |   └─ assets
-|  |   |  └─ css
-|  |   |  |  └─ style.css
-|  |   |  └─ img
-|  |   |  |  └─ magical-sword-bg.gif
-|  |   |  └─ js
-|  |   |     └─ script.js
-|  |   └─ index.html
-|  |
-|  └─ hero-2
-|  |   └─ assets
-|  |   |  └─ css
-|  |   |  |  └─ style.css
-|  |   |  └─ img
-|  |   |  |  └─ kln-kreates-kln-bg.png
-|  |   |  └─ js
-|  |   |     └─ script.js
-|  |   └─ index.html
-|  |
-|  └─ hero-3
-|  |   └─ assets
-|  |   |  └─ css
-|  |   |  |  └─ style.css
-|  |   |  └─ img
-|  |   |  |  └─ adhikrafts-red-bracelet (1).jpg
-|  |   |  |  └─ strawberry-bg.jpg
-|  |   |  └─ js
-|  |   |     └─ script.js
-|  |   └─ index.html
-|  |
-|  └─ hero-4
-|  |   └─ assets
-|  |   |  └─ css
-|  |   |  |  └─ style.css
-|  |   |  └─ img
-|  |   |  |  └─ bg-for-yellow-pantone.jpg
-|  |   |  |  └─ pantone-yellow.jpg
-|  |   |  └─ js
-|  |   |     └─ script.js
-|  |   └─ index.html
-|  |
-|  └─ hero-5
+|  └─ pageName
 |     └─ assets
-|      |  └─ css
-|      |  |  └─ style.css
-|      |  └─ img
-|      |     └─ kln-kreates-art-img.png
-|      |
-|      └─ index.html
-|
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
 └─ index.html
-└─ Readme.md
+└─ readme.md
 ```
 
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| W3School | HTML/CSS | https://www.w3schools.com/ |
-| CodeSweetly | HTML/CSS | https://codesweetly.com/ |
-| Google Fonts | Fonts | https://fonts.google.com/ |
+| Title         | Purpose  | Link                       |
+| ------------- | -------- | ---------------------------|
+| W3School      | HTML/CSS | https://www.w3schools.com/ |
+| CodeSweetly   | HTML/CSS | https://codesweetly.com/   |
+| Google Fonts  | Fonts    | https://fonts.google.com/  |
 | Stackoverflow | HTML/CSS | https://stackoverflow.com/ |
-| Google | HTML/CSS | https://www.google.com.ph/ |
-| lorem Ipsum | Content | https://loremipsum.io/|
+| Google        | HTML/CSS | https://www.google.com.ph/ |
+| lorem Ipsum   | Content  | https://loremipsum.io/     |
